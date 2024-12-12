@@ -18,32 +18,6 @@ Based in Paris, France, I currently work at [Avanade](https://www.avanade.com).
 
 My focus is on transforming industries through data-driven strategies, hybrid cloud architectures, and AI-driven insights in smart manufacturing, operations, and supply chains, helping organizations fully harness the potential of digital transformation.
 
-## Connect with Me
-
-<div align="left">
-  <a href="https://www.linkedin.com/in/christophecremon" target="_blank">
-    <img src="../assets/img/logos/linkedin.svg" width="52" height="40" alt="linkedin logo"  />
-  </a>
-</div>
-
-## Skills & Technologies
-
-<div align="left">
-  <img src="../assets/img/logos/azure.svg" height="40" alt="azure logo"  />
-  <img width="12" />
-  <img src="../assets/img/logos/kubernetes.svg" height="40" alt="kubernetes logo"  />
-  <img width="12" />
-  <img src="../assets/img/logos/ansible.svg" height="40" alt="ansible logo"  />
-  <img width="12" />
-  <img src="../assets/img/logos/terraform.svg" height="40" alt="terraform logo"  />
-  <img width="12" />
-  <img src="../assets/img/logos/python.svg" height="40" alt="python logo"  />
-  <img width="12" />
-  <img src="../assets/img/logos/javascript.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="../assets/img/logos/csharp.svg" height="40" alt="csharp logo"  />
-</div>
-
 ## Certifications
 
 - [Microsoft MVP](https://mvp.microsoft.com/en-US/MVP/profile/f25e2f9a-6a98-4f17-ae88-841151646877)
