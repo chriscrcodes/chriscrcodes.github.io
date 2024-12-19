@@ -20,7 +20,7 @@ My focus is on transforming industries through data-driven strategies, hybrid cl
 
 ## Certifications
 
-- [Microsoft MVP](https://mvp.microsoft.com/en-US/MVP/profile/f25e2f9a-6a98-4f17-ae88-841151646877)
+- Microsoft MVP: [Badge](https://www.credly.com/badges/1f6f2423-2230-4e84-9113-686f176ca314/public_url) / [Profile](https://mvp.microsoft.com/en-US/MVP/profile/f25e2f9a-6a98-4f17-ae88-841151646877)
 - [Microsoft Certified: Azure Solutions Architect Expert](https://learn.microsoft.com/api/credentials/share/en-us/christophecremon/D222BF438855975F?sharingId=454637B33FF13E6E)
 - [Azure Databricks Platform Architect](https://credentials.databricks.com/11e6140c-30c6-4666-9db9-9a65eb9b17ca)
 - [HashiCorp Certified: Terraform Associate](https://www.youracclaim.com/badges/819d7b25-e1b8-4038-a563-7d4516cb9310/linked_in_profile)
