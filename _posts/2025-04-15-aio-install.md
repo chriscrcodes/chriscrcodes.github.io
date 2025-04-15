@@ -5,8 +5,6 @@ categories: [AZURE, HYBRID CLOUD, AZURE IOT OPERATIONS]
 tags: [azure iot operations]
 ---
 
-# Installing Azure IoT Operations
-
 Welcome to the second post in my series exploring the innovative features of **Azure IoT Operations**.   
 In this post, I will walk you through the step-by-step process of installing **Azure IoT Operations** on an Azure Arc-enabled Kubernetes cluster.   
 This guide is tailored for a machine running **Linux Ubuntu**, ensuring a seamless setup for managing IoT workloads in a Hybrid Cloud environment.   
