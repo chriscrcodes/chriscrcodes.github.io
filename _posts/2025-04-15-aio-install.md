@@ -1,5 +1,5 @@
 ---
-title: Uncovering Azure IoT Operations
+title: Installing Azure IoT Operations
 date: 2025-04-15 16:45:00 +0100
 categories: [AZURE, HYBRID CLOUD, AZURE IOT OPERATIONS]
 tags: [azure iot operations]
@@ -254,6 +254,7 @@ You should now see the following resources in Azure (names may vary depending on
 
     ![aio-dashboard](/assets/img/aio-dashboard.png)
 
-Thank you for following this guide.   
-In the next post, we will explore how to connect Azure IoT Operations to your devices and start collecting data.   
+You have successfully installed **Azure IoT Operations** on your Azure Arc-enabled Kubernetes cluster!  
+
+Thank you for following this guide! In the next post, we will explore how to connect Azure IoT Operations to your devices and start collecting data.   
 Stay tuned for more updates!
