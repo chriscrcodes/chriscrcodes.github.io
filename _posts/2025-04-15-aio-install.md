@@ -221,10 +221,10 @@ You should now see the following resources in Azure (names may vary depending on
       ```bash
       OIDC_ISSUER_PROFILE=$(az connectedk8s show --resource-group $TTYF_RESOURCE_GROUP --name $TTYF_AIO_CLUSTER_NAME --query oidcIssuerProfile.issuerUrl --output tsv)
       sudo tee -a /etc/rancher/k3s/config.yaml <<EOF
-        kube-apiserver-arg:
-          - service-account-issuer=$OIDC_ISSUER_PROFILE
-          - service-account-max-token-expiration=24h
-        EOF
+      kube-apiserver-arg:
+        - service-account-issuer=$OIDC_ISSUER_PROFILE
+        - service-account-max-token-expiration=24h
+      EOF
       ```
    - Enable Custom Location support:
      ```bash
