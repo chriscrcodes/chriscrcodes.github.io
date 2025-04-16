@@ -219,7 +219,12 @@ You should now see the following resources in Azure (names may vary depending on
      ```
    - Get the cluster's issuer URL:
       ```bash
-      OIDC_ISSUER_PROFILE=$(az connectedk8s show --resource-group $TTYF_RESOURCE_GROUP --name $TTYF_AIO_CLUSTER_NAME --query oidcIssuerProfile.issuerUrl --output tsv)     
+      OIDC_ISSUER_PROFILE=$(az connectedk8s show \
+        --resource-group $TTYF_RESOURCE_GROUP \
+        --name $TTYF_AIO_CLUSTER_NAME \
+        --query oidcIssuerProfile.issuerUrl \
+        --output tsv)
+
       sudo tee -a /etc/rancher/k3s/config.yaml <<EOF
       kube-apiserver-arg:
         - service-account-issuer=$OIDC_ISSUER_PROFILE
@@ -237,6 +242,10 @@ You should now see the following resources in Azure (names may vary depending on
     - Check K3s installation
       ```bash
       kubectl get node
+      ```
+      > **Note**: if you encounter an error "WARN[0000] Unable to read /etc/rancher/k3s/k3s.yaml", execute the following command:
+      ```bash
+      sudo chmod 644 /etc/rancher/k3s/k3s.yaml
       ```
     - Initialize Azure IoT Operations foundations installation
       ```bash
