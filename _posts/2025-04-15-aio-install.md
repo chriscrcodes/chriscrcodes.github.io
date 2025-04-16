@@ -18,7 +18,7 @@ Whether you're provisioning resources in Azure Cloud or configuring an Edge Clus
   - Storage Account
   - Schema Registry
   - 2 Managed Identities
-  - 1 App Registration
+  - 1 App Registration (Service Principal for Edge Gateway)
   - Virtual Machine (if you want to test everything in Azure Cloud)
 
 ## Prepare and provision Cloud Platform
