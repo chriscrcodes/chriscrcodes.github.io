@@ -10,17 +10,27 @@ In this post, I will walk you through the step-by-step process of installing **A
 This guide is tailored for a machine running **Linux Ubuntu**, ensuring a seamless setup for managing IoT workloads in a Hybrid Cloud environment.   
 Whether you're provisioning resources in Azure Cloud or configuring an Edge Cluster, this tutorial will provide you with the necessary instructions to get started efficiently.
 
+## Cloud services requirements
+
+- Azure Subscription (with Contributor rights)
+- The solution will deploy the following resources:
+  - Resource Group
+  - Storage Account
+  - Schema Registry
+  - 2 Managed Identities
+  - 1 App Registration
+  - Virtual Machine (if you want to test everything in Azure Cloud)
+
 ## Prepare and provision Cloud Platform
    - Open a browser and navigate to the [Azure Portal](https://portal.azure.com/)
    - Use the [Azure Cloud Shell (**Bash**)](https://learn.microsoft.com/en-us/azure/cloud-shell/get-started/ephemeral?tabs=azurecli#start-cloud-shell)
    - Set Environment Variables for services to create in Azure:
      ```bash
-     prefix="ttyf"
-     random=$(tr -dc 'a-z' < /dev/urandom | fold -w 4 | head -n 1)$(date +%y%m%d)
-
      export TTYF_SUBSCRIPTION_ID="<YOUR_SUBSCRIPTION_ID>"
      export TTYF_LOCATION="<YOUR_LOCATION>"
 
+     prefix="ttyf"
+     random=$(tr -dc 'a-z' < /dev/urandom | fold -w 4 | head -n 1)$(date +%y%m%d)
      export TTYF_RESOURCE_GROUP="${prefix}-rg"
      export TTYF_KEYVAULT_NAME="${prefix}${random}kv"
      export TTYF_STORAGE_ACCOUNT_NAME="${prefix}${random}sa"     
@@ -252,7 +262,8 @@ You should now see the following resources in Azure (names may vary depending on
 
     ![aio-dashboard](/assets/img/aio-dashboard.png)
 
+Thank you for following this guide!  
 You have successfully installed **Azure IoT Operations** on your Azure Arc-enabled Kubernetes cluster!  
 
-Thank you for following this guide! In the next post, we will explore how to connect Azure IoT Operations to your devices and start collecting data.   
+ In the next post, we will explore how to connect Azure IoT Operations to your devices and start collecting data.   
 Stay tuned for more updates!
