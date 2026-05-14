@@ -6,17 +6,32 @@ order: 4
 
 ## Hi there! 👋
 
-I'm Christophe Crémon, a Solutions Architect & Offering Lead specializing in the Industry of the Future.
+I build the brains, not just the bots 🧠
 
-As a Microsoft MVP, I strive to contribute to the tech community and share knowledge.
+Forward Deployed Engineer focused on Hypervelocity Engineering, embedding directly with teams to turn Generative AI into autonomous, goal-driven systems that ship fast and scale securely.
 
-With over 20 years of experience in IT and Cloud computing, I am a seasoned expert in Microsoft Cloud Technologies, particularly Azure, Data, and AI solutions.
+Microsoft MVP with 20+ years in enterprise architecture, I work at the edge of Agentic AI, platform engineering, and real-world constraints — helping organizations move beyond demos and RAG chatbots to production-grade agents that act, adapt, and deliver measurable outcomes.
 
 ## About Me
 
-Based in Paris, France, I currently work at [Avanade](https://www.avanade.com).
+Based in Paris, France, I currently work at [Onepoint](https://www.groupeonepoint.com/).  
 
-My focus is on transforming industries through data-driven strategies, hybrid cloud architectures, and AI-driven insights in smart manufacturing, operations, and supply chains, helping organizations fully harness the potential of digital transformation.
+🚀 What I Do  
+- Advise C‑suite & engineering teams on GenAI strategy, governance, and ROI.
+- Design scalable Agentic architectures grounded in secure AI Landing Zones to orchestrate autonomous, enterprise-ready agents.
+- Build secure, production‑ready AI foundations that bridge the gap between experiments and enterprise systems.
+
+💡 My Passion  
+
+Bridging AI research and production — translating complex Agentic AI into measurable business value while fostering collaboration and delivering outcomes that scale reliably.
+
+## Connect with Me
+
+<div align="left">
+  <a href="https://www.linkedin.com/in/christophecremon" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
+  </a>
+</div>
 
 ## Certifications
 
